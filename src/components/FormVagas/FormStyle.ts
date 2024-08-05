@@ -10,12 +10,12 @@ export const FormWrapper = styled.form`
 `
 
 export const Campo = styled.input`
-  background-color: var(--cor-principal);
+  background-color: #fff;
   border: 1px solid var(--cor-principal);
   height: 40px;
-  padding: 0 16px;
+  padding: 16px;
   font-size: 18px;
-  color: var(--cor-secundaria);
+  color: var(--cor-principal);
   margin-left: 8px;
   cursor: pointer;
   @media (max-width: 768px) {
@@ -28,6 +28,9 @@ export const Campo = styled.input`
 
 export const BtnPesquisar = styled.button`
   padding: 0 16px;
+  color: var(--cor-secundaria);
+  margin-left: 5px;
+  background-color: var(--cor-principal);
   outline-color: var(--cor-principal);
   @media (max-width: 768px) {
     font-size: 10px;
