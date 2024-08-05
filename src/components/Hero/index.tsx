@@ -1,13 +1,17 @@
-import styles from './Hero.module.css'
+import React from 'react'
+import { HeroWrapper, Overlay, FormWrapper, HeroTitle } from './HeroStyles'
 
-const Hero = () => (
-  <form className={styles.form}>
-    <div className="container">
-      <h2 className={styles.heroTitle}>
-        As melhores vagas para tecnologia, design e artes visuais.
-      </h2>
-    </div>
-  </form>
+const HeroComponent = () => (
+  <HeroWrapper>
+    <Overlay />
+    <FormWrapper>
+      <div className="container">
+        <HeroTitle>
+          As melhores vagas para tecnologia, design e artes visuais.
+        </HeroTitle>
+      </div>
+    </FormWrapper>
+  </HeroWrapper>
 )
 
-export default Hero
+export default HeroComponent
