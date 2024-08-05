@@ -11,15 +11,16 @@ export const VagasList = styled.ul`
   margin: 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 10px;
 `
 
 export const VagaItem = styled.li`
   margin-bottom: 16px;
   padding: 10px;
-  border: 1px solid #ccc;
+
   border-radius: 4px;
   background-color: #f9f9f9;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
   display: grid;
 
   &:last-child {
