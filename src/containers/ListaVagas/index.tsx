@@ -1,7 +1,7 @@
-// src/components/ListaVagas/index.tsx
+
 import React, { useState } from 'react'
-import FormVagas from '../../components/FormVagas' // Corrigido
-import Vaga from '../../components/Vaga' // Corrigido
+import FormVagas from '../../components/FormVagas' 
+import Vaga from '../../components/Vaga' 
 import {
   ListaVagasContainer,
   VagasList,
@@ -30,7 +30,7 @@ const vagas: VagaProps[] = [
     salarioMax: 4500,
     requisitos: ['HTML', 'CSS', 'JavaScript', 'jQuery']
   }
-  // Outras vagas omitidas para brevidade
+  
 ]
 
 const ListaVagas = () => {
