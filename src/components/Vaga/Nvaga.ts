@@ -1,4 +1,3 @@
-// src/components/Vaga/Nvaga.tsx
 import styled from 'styled-components'
 
 export const Vaga = styled.div`

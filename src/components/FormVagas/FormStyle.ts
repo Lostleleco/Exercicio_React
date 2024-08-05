@@ -19,7 +19,10 @@ export const Campo = styled.input`
   margin-left: 8px;
   cursor: pointer;
   @media (max-width: 768px) {
-    font-size: 10px;
+    font-size: 5px;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
   }
 `
 
